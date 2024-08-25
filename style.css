@@ -1,0 +1,97 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Instructions styling */
+#ins {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Scoreboard styling */
+#scoreboard {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+/* Game board styling */
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+/* Button styling */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#reset-buttons {
+    margin-top: 20px;
+}
+
+/* Mute button styling */
+#muteButton {
+    margin-top: 20px;
+}
+
+/* Print message styling */
+#print {
+    font-size: 18px;
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+
+/* Winning move styles */
+.win {
+    background-color: red; /* Example winning move color */
+    color: white; /* Example text color for winning moves */
+}
