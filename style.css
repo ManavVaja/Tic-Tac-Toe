@@ -89,9 +89,39 @@ button:hover {
     margin-top: 20px;
 }
 
-
 /* Winning move styles */
 .win {
     background-color: red; /* Example winning move color */
     color: white; /* Example text color for winning moves */
+}
+
+footer{
+    width: 95vw;
+    height: 15vh;
+    margin: 15px;
+    margin-left: 29px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    margin-left: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icons a:hover {
+    color: rgb(84, 180, 212);
 }
